@@ -148,7 +148,8 @@ $scriptPaths = @(
     if ($useQuickMFT) { "C:\temp\scripts\QuickMFT.ps1" } else { "C:\temp\scripts\MFT.ps1" },
     "C:\temp\scripts\ProcDump.ps1",
     "C:\temp\scripts\Registry.ps1",
-    "C:\temp\scripts\SystemLogs.ps1"
+    "C:\temp\scripts\SystemLogs.ps1",
+    "C:\temp\scripts\PCIE.ps1"
 )
 
 $jobs = @()

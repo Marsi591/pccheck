@@ -3,7 +3,7 @@ $ErrorActionPreference = "SilentlyContinue"
 # ---------- MENUS ----------
 function Show-MainMenu {
     Read-Host "
-Aurora RP PC Check`n`n 
+Aurora RP PC Check`n 
 `nChoose a Category:
 (1) Checks
 (2) Clean Traces
@@ -102,6 +102,7 @@ do {
                     $urls = @(
                         "https://raw.githubusercontent.com/Marsi591/pccheck/master/PCCheck.ps1",
                         "https://raw.githubusercontent.com/Marsi591/pccheck/master/QuickMFT.ps1",
+                        "https://raw.githubusercontent.com/Marsi591/pccheck/master/PCIE.ps1",                       
                         "https://raw.githubusercontent.com/Marsi591/pccheck/master/Registry.ps1",
                         "https://raw.githubusercontent.com/Marsi591/pccheck/master/SystemLogs.ps1",
                         "https://raw.githubusercontent.com/Marsi591/pccheck/master/ProcDump.ps1",

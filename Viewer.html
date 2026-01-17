@@ -252,6 +252,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
       <button id="bamButton">BAM</button>
       <button id="prefetchButton">Prefetch</button>
       <button id="browserButton">Browser</button>
+      <button id="pcieButton">PCIe</button>
       <button id="resultsButton">Results</button>
     </div>
     <input type="text" id="searchInput" placeholder="General Search">
@@ -302,6 +303,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     document.getElementById('bamButton').addEventListener('click', () => loadCSV('http://localhost:8080/Registry/Bam_Overview.csv', 'BAM'));
     document.getElementById('prefetchButton').addEventListener('click', () => loadCSV('http://localhost:8080/Prefetch/Prefetch_Overview.csv', 'Prefetch'));
     document.getElementById('browserButton').addEventListener('click', () => loadCSV('http://localhost:8080/Browserhistory/Browserhistory.csv', 'Browser History'));
+    document.getElementById('pcieButton').addEventListener('click', () => loadCSV('http://localhost:8080/PCIe/PCIe_Raw.csv', 'PCIe'));
     document.getElementById('resultsButton').addEventListener('click', () => loadText('http://localhost:8080/Results.txt', 'Results'));
 
     function loadText(url, fileName) {
