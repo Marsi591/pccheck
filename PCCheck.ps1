@@ -129,7 +129,7 @@ else {
     Write-Host "5 " -NoNewLine -ForegroundColor Magenta
     Write-Host "Seconds`n`n`n" -NoNewline
     Start-Sleep 5
-    & C:\temp\scripts\Menu.ps1
+    & exit 0
     return
 }
 
