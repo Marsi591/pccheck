@@ -129,7 +129,7 @@ else {
     Write-Host "5 " -NoNewLine -ForegroundColor Magenta
     Write-Host "Seconds`n`n`n" -NoNewline
     Start-Sleep 5
-    & exit 0
+    & "C:\Temp\Scripts\Menu.ps1"
     return
 }
 
@@ -791,4 +791,4 @@ elseif ($response -eq 'N') {
 Clear-Host
 
 Get-Variable | Where-Object { $_.Name -like '*Imp' } | Remove-Variable
-& exit 0
+& "C:\Temp\Scripts\Menu.ps1"
